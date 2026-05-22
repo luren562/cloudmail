@@ -4,6 +4,10 @@ compatibility_date = "2025-04-01"
 compatibility_flags = [ "nodejs_compat" ]
 keep_vars = true
 
+# 添加构建命令，确保依赖被安装
+[build]
+command = "cd worker && pnpm install --no-frozen-lockfile"
+
 [vars]
 PREFIX = "tmp"
 DEFAULT_DOMAINS = ["luren.cfd"]
