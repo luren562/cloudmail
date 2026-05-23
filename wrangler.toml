@@ -18,6 +18,7 @@ ENABLE_USER_CREATE_EMAIL = true
 ENABLE_USER_DELETE_EMAIL = true
 ENABLE_AUTO_REPLY = false
 ENABLE_USER_CHANGE_PASSWORD = true
+ENABLE_ADDRESS_PASSWORD = true
 [[d1_databases]]
 binding = "DB"
 database_name = "cloudmail-db"
