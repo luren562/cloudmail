@@ -19,6 +19,8 @@ ENABLE_USER_DELETE_EMAIL = true
 ENABLE_AUTO_REPLY = false
 ENABLE_USER_CHANGE_PASSWORD = true
 ENABLE_ADDRESS_PASSWORD = false
+ADMIN_PASSWORD = "fwHWHg7a45w"  # 添加这行
+
 [[d1_databases]]
 binding = "DB"
 database_name = "cloudmail-db"
